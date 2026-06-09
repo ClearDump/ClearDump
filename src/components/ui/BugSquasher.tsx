@@ -96,7 +96,7 @@ export default function BugSquasher() {
               BUGS SQUASHED!
             </h2>
             <p className="mt-4 text-xl sm:text-2xl font-bold text-gray-800 bg-white/80 rounded-full px-6 py-2 inline-block">
-              Layout fixed & Calendar ready.
+              Premium Bin Cleaning Services.
             </p>
           </motion.div>
         )}
