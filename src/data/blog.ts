@@ -10,6 +10,55 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "running-ads-for-a-construction-company",
+    title: "I'm Running Ads For A Construction Company — Here's What's Actually Working",
+    description: "Most construction companies lose jobs before they ever give an estimate. Here's the paid advertising system that changes that — and how contractors are building predictable lead flow every single month.",
+    date: "June 12, 2026",
+    readTime: "7 min read",
+    category: "Marketing",
+    content: `
+      <h2>The Job Was Lost Before You Ever Picked Up The Phone</h2>
+      <p>Most construction companies are losing jobs before they ever get a chance to give an estimate. Not because they're bad at construction. Not because they lack experience. Because another company showed up <em>first</em>.</p>
+      <p>The reality is simple: the company that captures attention first usually gets the call. The company that follows up first usually gets the estimate. The company that stays visible usually gets the contract.</p>
+
+      <h2>The Referral Wait Is Over — Paid Advertising Is The New Referral</h2>
+      <p>While most contractors are waiting for referrals, the fastest-growing construction companies are using paid advertising to create predictable lead flow every single month. Think about it. A homeowner notices roof damage. A family decides to remodel their kitchen. A property owner needs concrete work completed. They don't wait for a referral — they pull out their phone and start searching.</p>
+      <p>The companies showing up in front of them at that exact moment have a massive advantage. This is why marketing is no longer optional for serious contractors.</p>
+
+      <h2>The Visibility Equation That Actually Creates Revenue</h2>
+      <p>The best contractors understand that lead generation is just as important as quality workmanship. You can be the best builder in town and still lose business if nobody sees you. Here's the chain that drives growth:</p>
+      <ul>
+        <li><strong>Visibility</strong> creates opportunity.</li>
+        <li><strong>Opportunity</strong> creates estimates.</li>
+        <li><strong>Estimates</strong> create revenue.</li>
+        <li><strong>Revenue</strong> creates growth.</li>
+      </ul>
+      <p>The contractors winning today are building <em>systems</em> instead of relying on luck.</p>
+
+      <h2>The Ad System That's Working Right Now</h2>
+      <p>After running campaigns for multiple construction companies, the highest-performing structure is a three-stage funnel built on Google Search Ads, retargeting on Meta, and a fast follow-up sequence via SMS and email. The goal is simple:</p>
+      <ol>
+        <li>Generate leads consistently.</li>
+        <li>Follow up within 5 minutes.</li>
+        <li>Convert prospects into paying customers.</li>
+        <li>Repeat.</li>
+      </ol>
+      <p>That's how companies scale. Want to see exactly when to run which campaigns across the calendar year? <a href="https://stackmode.net/ads-calendar" target="_blank" rel="noopener noreferrer">Access the Ads Calendar here</a> — it maps out every seasonal push, promotion window, and bid strategy adjustment month by month for construction businesses.</p>
+
+      <h2>What The Ad Calendar Reveals About Construction Seasonality</h2>
+      <p>One of the biggest mistakes contractors make is running ads at a flat budget year-round. The construction industry has predictable seasonal spikes — spring remodels, summer builds, fall roofing jobs before winter, and commercial projects with Q4 budget spend. A proper <a href="https://stackmode.net/ads-calendar" target="_blank" rel="noopener noreferrer">ads calendar</a> tells you exactly when to push spend, when to pull back, and how to dominate your market during peak windows without wasting budget during slow periods.</p>
+
+      <h2>Learn The Full System — Not Just The Ads</h2>
+      <p>Ads are only one piece of the puzzle. The construction companies scaling the fastest are also building strong offer structures, follow-up sequences, and brand positioning that makes saying yes easy for the customer. If you want to go deeper on business growth strategy, lead generation systems, and wealth-building principles built specifically for contractors and service businesses, visit the <a href="https://stackmode.net/academy" target="_blank" rel="noopener noreferrer">Stackmode Academy</a>. It covers everything from running your first Google Ads campaign to scaling past seven figures.</p>
+
+      <h2>Track The Smart Money While You Build Your Business</h2>
+      <p>Growing a construction business also means building personal wealth in parallel. The contractors who build real, lasting wealth aren't just reinvesting every dollar back into operations — they're investing in assets. If you're looking for what the top investors are watching right now, check out the <a href="https://stackmode.net/stock-watchlist" target="_blank" rel="noopener noreferrer">Stackmode Stock Watchlist</a>. It's updated regularly with high-conviction positions for business owners building long-term wealth alongside their companies.</p>
+
+      <h2>Start Building A Business That Works Even When You're Not</h2>
+      <p>The goal was never to create another job for yourself. The goal is to build a business — a system that generates leads, converts them to customers, and delivers revenue whether you're on the job site or not. If you want advanced business growth strategies, marketing systems, and wealth-building principles, visit <a href="https://stackmode.net" target="_blank" rel="noopener noreferrer">Stackmode.net</a> and start building a business that works even when you're not working.</p>
+    `
+  },
+  {
     slug: "why-you-need-professional-trash-bin-cleaning-in-atlanta",
     title: "Why You Need Professional Trash Bin Cleaning in Atlanta",
     description: "Discover why DIY hose-downs aren't enough and how professional bin cleaning protects your family from bacteria and pests in the hot Atlanta climate.",
