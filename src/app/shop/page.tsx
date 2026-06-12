@@ -3,8 +3,43 @@ import Link from "next/link";
 import { ShoppingBag, ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Shop | Clear Dump Atlanta",
-  description: "Clear Dump merch and eco-friendly products coming soon.",
+  title: "Shop | Clear Dump Atlanta – Eco-Friendly Bin Products",
+  description: "Clear Dump merch and eco-friendly trash bin products coming soon. Atlanta's favorite bin cleaning service is expanding to bring you premium home care products.",
+  keywords: [
+    "Clear Dump shop Atlanta",
+    "eco-friendly bin products",
+    "trash bin accessories Atlanta",
+    "Clear Dump merchandise",
+  ],
+  alternates: {
+    canonical: "https://cleardump.com/shop",
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
+  openGraph: {
+    title: "Shop | Clear Dump Atlanta – Coming Soon",
+    description: "Eco-friendly trash bin products and Clear Dump merch coming soon. Stay tuned!",
+    type: "website",
+    url: "https://cleardump.com/shop",
+    siteName: "Clear Dump",
+    locale: "en_US",
+    images: [
+      {
+        url: "/images/colorful-recycling-bins-atlanta-cleaning-service.png",
+        width: 1200,
+        height: 630,
+        alt: "Colorful recycling bins – Clear Dump Atlanta eco-friendly bin products shop coming soon",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shop | Clear Dump Atlanta – Coming Soon",
+    description: "Eco-friendly trash bin products and Clear Dump merch coming soon!",
+    images: [{ url: "/images/colorful-recycling-bins-atlanta-cleaning-service.png", alt: "Colorful recycling bins – Clear Dump shop coming soon" }],
+  },
 };
 
 export default function ShopPage() {

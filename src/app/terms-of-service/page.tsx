@@ -2,6 +2,30 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Service | Clear Dump Atlanta",
+  description: "Read Clear Dump's terms of service. Understand the terms and conditions for using our professional weekly trash bin cleaning service in Atlanta, GA.",
+  alternates: {
+    canonical: "https://cleardump.com/terms-of-service",
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
+  openGraph: {
+    title: "Terms of Service | Clear Dump Atlanta",
+    description: "Terms and conditions for Clear Dump professional trash bin cleaning service.",
+    type: "website",
+    url: "https://cleardump.com/terms-of-service",
+    siteName: "Clear Dump",
+    locale: "en_US",
+    images: [
+      {
+        url: "/images/clear-dump-atlanta-trash-bin-cleaning-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Clear Dump Atlanta – Terms of Service for Professional Trash Bin Cleaning",
+      },
+    ],
+  },
 };
 
 export default function TermsPage() {

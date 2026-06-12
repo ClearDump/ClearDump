@@ -2,8 +2,40 @@ import { Metadata } from "next";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Clear Dump Atlanta",
-  description: "Get in touch with Clear Dump. Call us at 678-558-4327 or email cleardump@proton.me for professional trash bin cleaning in Atlanta.",
+  title: "Contact Us | Clear Dump Atlanta – Trash Bin Cleaning",
+  description: "Get in touch with Clear Dump Atlanta. Call or text 678-558-4327, email cleardump@proton.me, or send a message for professional trash bin cleaning quotes.",
+  keywords: [
+    "contact Clear Dump Atlanta",
+    "trash bin cleaning quote Atlanta",
+    "garbage can cleaning phone number",
+    "Atlanta bin cleaning contact",
+    "bin cleaning customer service Georgia",
+  ],
+  alternates: {
+    canonical: "https://cleardump.com/contact",
+  },
+  openGraph: {
+    title: "Contact Us | Clear Dump Atlanta",
+    description: "Call or text 678-558-4327 or email cleardump@proton.me for professional trash bin cleaning in Atlanta.",
+    type: "website",
+    url: "https://cleardump.com/contact",
+    siteName: "Clear Dump",
+    locale: "en_US",
+    images: [
+      {
+        url: "/images/residential-trash-bins-curbside-cleaning-atlanta.png",
+        width: 1200,
+        height: 630,
+        alt: "Residential trash bins curbside – contact Clear Dump for professional bin cleaning in Atlanta GA",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Clear Dump Atlanta",
+    description: "Call/text 678-558-4327 or email us for professional trash bin cleaning service in Atlanta.",
+    images: [{ url: "/images/residential-trash-bins-curbside-cleaning-atlanta.png", alt: "Residential trash bins at curbside – Clear Dump Atlanta contact page" }],
+  },
 };
 
 export default function ContactPage() {

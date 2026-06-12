@@ -2,6 +2,30 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Cookie Policy | Clear Dump Atlanta",
+  description: "Clear Dump's cookie policy explains how we use cookies and third-party tracking tools on our Atlanta trash bin cleaning service website.",
+  alternates: {
+    canonical: "https://cleardump.com/cookie-policy",
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
+  openGraph: {
+    title: "Cookie Policy | Clear Dump Atlanta",
+    description: "How Clear Dump uses cookies and third-party tracking on our website.",
+    type: "website",
+    url: "https://cleardump.com/cookie-policy",
+    siteName: "Clear Dump",
+    locale: "en_US",
+    images: [
+      {
+        url: "/images/clear-dump-atlanta-trash-bin-cleaning-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Clear Dump Atlanta – Cookie Policy for Professional Trash Bin Cleaning Website",
+      },
+    ],
+  },
 };
 
 export default function CookiePage() {

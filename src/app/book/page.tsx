@@ -2,8 +2,40 @@ import { Metadata } from "next";
 import CalendlyEmbed from "@/components/booking/CalendlyEmbed";
 
 export const metadata: Metadata = {
-  title: "Book a Cleaning | Clear Dump Atlanta",
-  description: "Schedule your professional trash bin cleaning service in Atlanta today. Choose your day and get started for just $150/month.",
+  title: "Book a Cleaning | Clear Dump Atlanta – $150/mo Weekly Service",
+  description: "Schedule your professional trash bin cleaning service in Atlanta today. Choose your preferred day and get started for just $150/month. Fast, easy online booking.",
+  keywords: [
+    "book trash bin cleaning Atlanta",
+    "schedule bin cleaning Atlanta",
+    "trash can cleaning appointment",
+    "Clear Dump booking",
+    "Atlanta garbage can cleaning signup",
+  ],
+  alternates: {
+    canonical: "https://cleardump.com/book",
+  },
+  openGraph: {
+    title: "Book a Cleaning | Clear Dump Atlanta",
+    description: "Schedule your weekly professional trash bin cleaning in Atlanta. Just $150/month. Easy online booking.",
+    type: "website",
+    url: "https://cleardump.com/book",
+    siteName: "Clear Dump",
+    locale: "en_US",
+    images: [
+      {
+        url: "/images/clear-dump-atlanta-trash-bin-cleaning-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Clear Dump Atlanta – Book your professional trash bin cleaning service online",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Book a Cleaning | Clear Dump Atlanta",
+    description: "Schedule your weekly trash bin cleaning in Atlanta. $150/mo. Book online now!",
+    images: [{ url: "/images/clear-dump-atlanta-trash-bin-cleaning-logo.png", alt: "Clear Dump Atlanta – book trash bin cleaning online" }],
+  },
 };
 
 export default function BookPage() {

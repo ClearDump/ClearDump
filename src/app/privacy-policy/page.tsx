@@ -2,6 +2,30 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Clear Dump Atlanta",
+  description: "Read Clear Dump's privacy policy. Learn how we collect, use, and protect your personal information when you use our Atlanta trash bin cleaning service.",
+  alternates: {
+    canonical: "https://cleardump.com/privacy-policy",
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
+  openGraph: {
+    title: "Privacy Policy | Clear Dump Atlanta",
+    description: "How Clear Dump collects, uses, and protects your personal data.",
+    type: "website",
+    url: "https://cleardump.com/privacy-policy",
+    siteName: "Clear Dump",
+    locale: "en_US",
+    images: [
+      {
+        url: "/images/clear-dump-atlanta-trash-bin-cleaning-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Clear Dump Atlanta – Privacy Policy for Professional Trash Bin Cleaning Service",
+      },
+    ],
+  },
 };
 
 export default function PrivacyPage() {

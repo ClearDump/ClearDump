@@ -32,7 +32,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Image
                 src="/images/clear-dump-atlanta-trash-bin-cleaning-logo.png"
-                alt="Clear Dump logo"
+                alt="Clear Dump – Professional Trash Bin Cleaning Service Atlanta GA Logo"
                 width={40}
                 height={40}
                 className="w-10 h-10 object-contain"

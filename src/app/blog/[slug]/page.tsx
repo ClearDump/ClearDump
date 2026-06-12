@@ -18,14 +18,42 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return { title: "Post Not Found" };
   }
 
+  const ogImage = post.ogImage ?? "/images/clear-dump-atlanta-trash-bin-cleaning-logo.png";
+  const ogImageAlt = post.ogImageAlt ?? `${post.title} | Clear Dump Atlanta`;
+
   return {
     title: `${post.title} | Clear Dump Blog`,
     description: post.description,
+    keywords: post.keywords ?? [
+      "trash bin cleaning Atlanta",
+      "garbage can cleaning service",
+      "Clear Dump Atlanta",
+    ],
+    alternates: {
+      canonical: `https://cleardump.com/blog/${slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.description,
       type: "article",
-    }
+      url: `https://cleardump.com/blog/${slug}`,
+      siteName: "Clear Dump",
+      locale: "en_US",
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: ogImageAlt,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: [{ url: ogImage, alt: ogImageAlt }],
+    },
   };
 }
 

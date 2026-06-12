@@ -5,6 +5,9 @@ export interface BlogPost {
   date: string;
   readTime: string;
   category: string;
+  ogImage?: string;
+  ogImageAlt?: string;
+  keywords?: string[];
   content: string;
 }
 
@@ -16,6 +19,9 @@ export const blogPosts: BlogPost[] = [
     date: "June 12, 2026",
     readTime: "7 min read",
     category: "Marketing",
+    ogImage: "/images/colorful-recycling-bins-atlanta-cleaning-service.png",
+    ogImageAlt: "Colorful recycling bins – Atlanta professional bin cleaning service by Clear Dump",
+    keywords: ["construction company ads", "paid advertising contractors", "lead generation construction", "Google Ads contractors Atlanta", "contractor marketing"],
     content: `
       <h2>The Job Was Lost Before You Ever Picked Up The Phone</h2>
       <p>Most construction companies are losing jobs before they ever get a chance to give an estimate. Not because they're bad at construction. Not because they lack experience. Because another company showed up <em>first</em>.</p>
@@ -65,6 +71,9 @@ export const blogPosts: BlogPost[] = [
     date: "June 5, 2026",
     readTime: "5 min read",
     category: "Sanitation",
+    ogImage: "/images/residential-trash-bins-curbside-cleaning-atlanta.png",
+    ogImageAlt: "Residential trash bins at curbside ready for professional cleaning service in Atlanta GA",
+    keywords: ["professional trash bin cleaning Atlanta", "garbage can cleaning Atlanta", "bin sanitization Georgia", "Atlanta sanitation service", "trash can cleaning near me"],
     content: `
       <h2>The Hidden Dangers in Your Driveway</h2>
       <p>Most Atlanta homeowners take great pride in their homes and lawns, yet overlook the dirtiest item on their property: the trash bin. As temperatures rise in Georgia, your bins become a breeding ground for dangerous bacteria like E. coli, Salmonella, and Listeria. A quick rinse with the garden hose doesn't sanitize; it merely distributes the bacteria and creates a damp environment perfect for mosquito breeding.</p>
@@ -83,6 +92,9 @@ export const blogPosts: BlogPost[] = [
     date: "May 28, 2026",
     readTime: "4 min read",
     category: "Pest Control",
+    ogImage: "/images/residential-trash-bins-curbside-cleaning-atlanta.png",
+    ogImageAlt: "Residential trash bins curbside – dirty bins attract rats roaches and pests in Atlanta",
+    keywords: ["trash cans attract rats Atlanta", "dirty bins roaches", "pest prevention trash bins", "rodent control Atlanta", "garbage can pests"],
     content: `
       <h2>The Scent Trail Problem</h2>
       <p>Pests have an incredible sense of smell. Rats, raccoons, and roaches are drawn to the scent of decaying organic matter from miles away. When you throw away food scraps, liquids inevitably leak into the bottom of the bin. This sludge ferments in the heat, creating a powerful odor beacon for local wildlife.</p>
@@ -101,6 +113,9 @@ export const blogPosts: BlogPost[] = [
     date: "May 15, 2026",
     readTime: "5 min read",
     category: "Health",
+    ogImage: "/images/colorful-recycling-bins-atlanta-cleaning-service.png",
+    ogImageAlt: "Colorful recycling bins – bacteria and health risks from uncleaned garbage bins Atlanta",
+    keywords: ["health risks dirty trash bins", "bacteria garbage cans", "E. coli trash bins", "bin sanitation health", "Atlanta trash can bacteria"],
     content: `
       <h2>A Bacterial Playground</h2>
       <p>Your trash bin is a concentrated collection point for biological waste: discarded meat packaging, spoiled dairy, used tissues, and pet waste. Combined with the dark, warm environment inside the bin, it becomes an ideal incubator for rapid bacterial growth. Studies have shown that a typical uncleaned trash bin can host over 10 million bacteria per square inch.</p>
@@ -119,6 +134,9 @@ export const blogPosts: BlogPost[] = [
     date: "May 2, 2026",
     readTime: "3 min read",
     category: "Environment",
+    ogImage: "/images/colorful-recycling-bins-atlanta-cleaning-service.png",
+    ogImageAlt: "Eco-friendly colorful recycling bins – Clear Dump green bin cleaning service Atlanta",
+    keywords: ["eco-friendly trash bin cleaning", "green garbage can cleaning Atlanta", "environmentally safe bin cleaning", "biodegradable bin cleaner", "wastewater-safe bin cleaning Atlanta"],
     content: `
       <h2>The Problem with Driveway Washing</h2>
       <p>When homeowners wash their own trash bins in the driveway, the runoff—containing bacteria, grease, household chemicals, and dirty soap—flows directly into storm drains. In Atlanta, these storm drains often lead directly to local creeks and rivers without passing through a water treatment plant. This harms local aquatic life and pollutes our waterways.</p>
@@ -137,6 +155,9 @@ export const blogPosts: BlogPost[] = [
     date: "April 20, 2026",
     readTime: "4 min read",
     category: "Tips",
+    ogImage: "/images/residential-trash-bins-curbside-cleaning-atlanta.png",
+    ogImageAlt: "Residential trash bins outside home – 5 signs your bins need professional cleaning Atlanta",
+    keywords: ["signs trash bins need cleaning", "when to clean trash bins", "dirty garbage can signs", "bin cleaning tips Atlanta", "professional bin cleaning signs"],
     content: `
       <h2>1. The Smell Precedes the Bin</h2>
       <p>If you can smell your trash bin before you open the lid—or worse, if the smell lingers in your garage or yard after the trash has been collected—the plastic itself has absorbed the odors and bacteria. This requires hot water extraction to resolve.</p>

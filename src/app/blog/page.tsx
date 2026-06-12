@@ -4,8 +4,41 @@ import { ArrowRight, Clock, Calendar } from "lucide-react";
 import { blogPosts } from "@/data/blog";
 
 export const metadata: Metadata = {
-  title: "Blog & Tips | Clear Dump Atlanta",
-  description: "Learn about pest prevention, sanitation, and the benefits of professional trash bin cleaning in Atlanta.",
+  title: "Blog & Tips | Clear Dump Atlanta – Trash Bin Cleaning",
+  description: "Expert tips on pest prevention, sanitation, and the benefits of professional trash bin cleaning in Atlanta. Learn how to keep your home safe and odor-free.",
+  keywords: [
+    "trash bin cleaning tips Atlanta",
+    "garbage can sanitation advice",
+    "pest prevention trash bins",
+    "Atlanta bin cleaning blog",
+    "recycling bin cleaning guide",
+    "how to clean trash bins",
+  ],
+  alternates: {
+    canonical: "https://cleardump.com/blog",
+  },
+  openGraph: {
+    title: "Blog & Tips | Clear Dump Atlanta – Trash Bin Cleaning",
+    description: "Expert tips on pest prevention, sanitation, and professional trash bin cleaning in Atlanta.",
+    type: "website",
+    url: "https://cleardump.com/blog",
+    siteName: "Clear Dump",
+    locale: "en_US",
+    images: [
+      {
+        url: "/images/colorful-recycling-bins-atlanta-cleaning-service.png",
+        width: 1200,
+        height: 630,
+        alt: "Colorful recycling bins – Clear Dump Atlanta trash bin cleaning service blog",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog & Tips | Clear Dump Atlanta",
+    description: "Expert advice on pest prevention, sanitation & professional bin cleaning in Atlanta.",
+    images: [{ url: "/images/colorful-recycling-bins-atlanta-cleaning-service.png", alt: "Colorful recycling bins – Clear Dump Atlanta cleaning service blog" }],
+  },
 };
 
 export default function BlogListingPage() {
